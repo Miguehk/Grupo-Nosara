@@ -7,7 +7,7 @@ body{
 }
 
 .logo_nosara{
-    height: 160px;
+    height: 125px;
     border-radius: 10%;
     margin: 0px 0px 0px 35px;
 }
@@ -26,11 +26,10 @@ p{
     width: 85%;
     max-width: 2300px;
     margin: 0 auto;
-    margin-bottom: -50px;
 }
 
 .header{
-    margin-top: -50px;
+    
     background: white;
     color: white;
     padding: 2rem 0;
@@ -83,6 +82,7 @@ p{
 
 .main{
     padding-top: 8rem;
+    margin-top: 100px;
 }
 
 .footer{
@@ -105,8 +105,14 @@ p{
         display: block;
         cursor: pointer;
         padding: 0.5rem 1rem;
+        color: black;
+        margin: 0px 0px 0px 80px;
     }
-    
+
+    .container{
+        margin-bottom: -15px;
+    }
+
     .navigation{
         width: 100%;
         margin-top: 1rem;
@@ -114,6 +120,7 @@ p{
     /*Ocultar*/
     .navigation ul{
         display: none;
+        color: black;
     }
 
     .navigation ul.show{
