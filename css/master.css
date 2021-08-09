@@ -1,18 +1,17 @@
-/*Actualizado*/
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #333;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.6em;
     margin: 0;
 }
 .main-img{
-    height: 885px;
-    margin: -24px 0px 0px -102px;
+    height: 1000px;
+    margin: 0px 0px 0px -5px;
 }
 
 .logo_nosara{
-    height: 100px;
+    height: 125px;
     border-radius: 10%;
     margin: 0px 0px 0px 35px;
 }
@@ -29,7 +28,7 @@ p{
 .container {
     align-items: center;
     width: 85%;
-    max-width: 1265px;
+    max-width: 2300px;
     margin: 0 auto;
 }
 
@@ -48,20 +47,17 @@ p{
 .telefono{
     display: flex;
     align-items: flex-end;
-    height: 30px;
-    margin: 0px 0px 0px 1208px;
+    margin: 0px 0px 0px 1567px;
 }
 .header-number{
-    color:#333;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.2rem;
     margin-top: -22.064px;
     margin-bottom: 1px;
     margin-left: 40px;
 }
 .header-icon-telefono{
     margin: 0px 0px 0px 0px;
-    height: 25px;
 }
 .header a{
     color: white;
@@ -123,8 +119,6 @@ p{
 .footer .derechos{
     color: white;
     text-align: center;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
 }
 
 
