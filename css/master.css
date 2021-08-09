@@ -110,7 +110,12 @@ p{
     text-align: center;
     margin-top: 6rem;
 }
-
+.footer-formulario-p{
+    color: white;
+}
+.footer-formulario-a{
+    color: white;
+}
 .footer .derechos{
     color: white;
     text-align: center;
