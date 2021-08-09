@@ -44,6 +44,21 @@ p{
     top: 0;
     right: 0;
 }
+.telefono{
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 0px 0px 1567px;
+}
+.header-number{
+    color: black;
+    font-size: 1.2rem;
+    margin-top: -22.064px;
+    margin-bottom: 1px;
+    margin-left: 40px;
+}
+.header-icon-telefono{
+    margin: 0px 0px 0px 0px;
+}
 .header a{
     color: white;
     text-decoration: none;
