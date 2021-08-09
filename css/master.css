@@ -5,6 +5,9 @@ body{
     line-height: 1.6em;
     margin: 0;
 }
+.main-img{
+    height: 1000px;
+}
 
 .logo_nosara{
     height: 125px;
