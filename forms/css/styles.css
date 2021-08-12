@@ -160,10 +160,6 @@ p{
 /*Media queery para responsive*/
 @media only screen and (max-width: 767px) {
 
-    .logo-nav-container{
-        margin: auto 75px;
-    }
-
     /*Afecta forms*/
     .menu-icon{
         display: block;
@@ -195,7 +191,6 @@ p{
 
     .navigation ul.show{
         display: block;
-        margin-right: 45px;
     }
 
     .navigation ul li{

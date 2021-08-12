@@ -2,16 +2,9 @@
 	box-sizing: border-box;
 }
 
-.logo_img{
-	display: block;
-	margin: auto;
-	height: 300px;
-	border-radius: 90%;
-}
-
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #E5E5E5;
+	background: #fff;
 }
 
 main {
@@ -19,6 +12,7 @@ main {
 	width: 90%;
 	margin: auto;
 	padding: 40px;
+	margin-top: 220px;
 }
 
 .formulario {
@@ -41,7 +35,7 @@ main {
 .formulario__input {
 	width: 100%;
 	background: #fff;
-	border: 3px solid transparent;
+	border: 1px solid ;
 	border-radius: 3px;
 	height: 45px;
 	line-height: 45px;
@@ -156,6 +150,9 @@ main {
 
 /* ----- -----  Mediaqueries ----- ----- */
 @media screen and (max-width: 800px) {
+
+    /*Ocultar telefono en Forms*/
+
 	.formulario {
 		grid-template-columns: 1fr;
 	}
