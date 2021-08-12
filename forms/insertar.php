@@ -44,7 +44,7 @@
 <header class="header">
     <div class="container logo-nav-container">
         <a href="https://gruponosara.com/" class="logo"><img class="logo_nosara"  src="img/logo.png" alt="Logo Grupo Nosara"></a>
-        <span class="menu-icon"><img src="../asset/lista.png" alt=""></span>
+        <span class="menu-icon"><img src="../asset/flecha.png" alt=""></span>
         <nav class="navigation">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>

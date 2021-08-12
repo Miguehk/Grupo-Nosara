@@ -30,7 +30,6 @@ body{
 .logo_nosara{
     height: 100px;
     border-radius: 10%;
-    margin: 0px 0px 0px 35px;
 }
 
 h1{
@@ -159,6 +158,15 @@ p{
 
 /*Media queery para responsive*/
 @media only screen and (max-width: 767px) {
+
+    /*---------------------------*/
+    .logo-nav-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto 75px;
+    }
+    /*---------------------------*/
+
 
     /*Afecta forms*/
     .menu-icon{

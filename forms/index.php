@@ -19,7 +19,7 @@
 <header class="header">
     <div class="container logo-nav-container">
         <a href="https://gruponosara.com/" class="logo"><img class="logo_nosara"  src="img/logo.png" alt="Logo Grupo Nosara"></a>
-        <span class="menu-icon"><img src="../asset/lista.png" alt=""></span>
+        <span class="menu-icon"><img src="../asset/flecha.png" alt=""></span>
         <nav class="navigation">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -123,8 +123,11 @@
         <p class="derechos">&copy Grupo Nosara 2021</p>
     </div>
     </footer>
+
+    <!--Script--->
     <script src="js/formulario.js"></script>
-    <!-------<script src="js/formulario.js"></script>------>
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/scripts.js"></script>   
+
 </body>
 </html>
