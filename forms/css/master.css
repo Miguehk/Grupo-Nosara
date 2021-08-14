@@ -12,7 +12,7 @@ main {
 	width: 90%;
 	margin: auto;
 	padding: 40px;
-	margin-top: 220px;
+	margin-top: -10px;
 }
 
 .formulario {
@@ -165,6 +165,9 @@ main {
 
 	.formulario__btn {
 		width: 100%;
+	}
+	main{
+
 	}
 }
 

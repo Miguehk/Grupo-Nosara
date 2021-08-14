@@ -17,7 +17,7 @@ body{
     padding: 2rem 0;
 
     /*Fijo*/
-    position: fixed;
+
     left: 0;
     top: 0;
     right: 0;
@@ -199,6 +199,7 @@ p{
 
     .navigation ul.show{
         display: block;
+        margin-right: 45px;
     }
 
     .navigation ul li{

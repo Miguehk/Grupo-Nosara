@@ -25,7 +25,7 @@
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../redit/puntosventa.html">Puntos de Venta</a></li>
                 <li><a href="../redit/servicios.html">Servicios</a></li>
-                <li><a href="../redit/clientes.html">Shopper</a></li>
+                <li><a href="../redit/shopper.html">Shopper</a></li>
                 <li><a href="../redit/contacto.html">Contacto</a></li>
             </ul>
         </nav>
