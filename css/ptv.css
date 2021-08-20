@@ -1,0 +1,25 @@
+#map{
+    height: 500px;
+	width: 100%;    
+    margin-top: 110px;
+}
+
+.container-ptv{
+    display: flex;
+    justify-content: start;
+    margin-top: 210px;
+}
+.container-ptv .img-nosara{
+    margin-top: 10px;
+	object-fit: cover;
+    border-radius: 3%;
+    height: 330px;
+    margin-left: 248px;
+}
+.container-text-info{
+    margin-left: 75px;
+    margin-top:74px
+}
+.icon{
+    height: 30px;
+}

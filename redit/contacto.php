@@ -83,8 +83,7 @@
 
 <!---Scripts-->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="../js/scripts.js"></script>
-<script src="../js/mapa.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+
 </body>
 </html>
