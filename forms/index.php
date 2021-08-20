@@ -88,7 +88,7 @@
             <input type="text" class="formulario__input" name="facelectronica" id="facelectronica" placeholder="consecutivo">
             <i class="formulario__validacion-estado fas fa-times-circle"></i>
             </div>
-        <p class="formulario__input-error">Deben contner solo numeros y con 20 digitos</p>
+        <p class="formulario__input-error">Deben contener solo numeros y con 20 digitos</p>
         </div>
 
         <!---Grupo Correo electronico-->

@@ -3,7 +3,6 @@
     width: 100%;
     object-fit: cover;
 }
-
 .container_titulo1{
     text-align: center;
     margin-top: 240px;
@@ -12,7 +11,6 @@
     font-weight: bold;
     font-size: 30px;
 }
-
 .container_titulo2{
     text-align: center;
     margin-top: 90px;
@@ -21,7 +19,6 @@
     font-weight: bold;
     font-size: 30px;
 }
-
 .container_titulo3{
     text-align: center;
     margin-top: 90px;
@@ -30,7 +27,6 @@
     font-weight: bold;
     font-size: 30px;
 }
-
 .container_titulo4{
     text-align: center;
     margin-top: 90px;
@@ -39,7 +35,6 @@
     font-weight: bold;
     font-size: 30px;
 }
-
 .container_titulo5{
     text-align: center;
     margin-top: 90px;
@@ -48,13 +43,9 @@
     font-weight: bold;
     font-size: 30px;
 }
-
-
 .hola{
     margin-top: 200px;
 }
-
-
 /*Media queery para responsive*/
 @media only screen and (max-width: 767px) {
 

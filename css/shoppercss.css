@@ -1,5 +1,4 @@
 /*Actualizado*/
-
 body{
     font-family: 'Nunito', sans-serif;
     color: #333;
@@ -13,7 +12,6 @@ body{
     background: white;
     color: white;
     padding: 2rem 0;
-
     /*Fijo*/
     position: fixed;
     left: 0;
@@ -79,13 +77,12 @@ p{
     color: black;
 }
 .navigation ul li a:hover{
-    background: #e9e9e9;
+    background: #f0f0f0;
 }
 .facebook-icon{
     margin-top: -4px;
     position: absolute;
 }
-
 /*************************************************************************************/
 .container{
     max-width: 69%;

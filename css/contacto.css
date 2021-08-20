@@ -1,0 +1,176 @@
+.contacto{
+    margin-top: 235px;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenedorc{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.main .contenedor{
+    overflow: visible;
+}
+.main .acerca-de{
+    text-align: center;
+}
+.main .acerca-de .foto{
+    margin-top: -60px;
+}
+.main .acerca-de .foto img{
+    vertical-align: top;
+}
+.main .acerca-de .texto{
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+.main .acerca-de .texto .titulo{
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #dd820d;
+    text-align: center;
+}
+.main .acerca-de .texto .bold{
+    color: #3895ea;
+    text-decoration: underline;
+}
+.main .trabajos{
+    background: #f2f2f2;
+    padding: 60px 0;
+}
+.main .trabajos .contenedor{
+    overflow: hidden;
+}
+.main .trabajos .titulo{
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+.main .trabajos .contenedor-trabajos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main .trabajos .contenedor-trabajos .trabajo{
+    width: 23%;
+    margin-bottom: 40px;
+}
+.main .trabajos .contenedor-trabajos .trabajo .thumb{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.main .trabajos .contenedor-trabajos .trabajo .thumb{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.main .trabajos .contenedor-trabajos .trabajo .thumb img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+.main .trabajos .contenedor-trabajos .trabajo .descripcion{
+    text-align: center;
+}
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre{
+    font-weight: 700;
+    color: #3895ea;
+    margin-bottom: 10px;
+}
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria{
+    font-size: 14px;
+    color: #636363;
+}
+footer .contacto{
+    padding: 10px 0;
+}
+.titulo{
+    color: rgb(39, 67, 226);
+    font-size: 23px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: #a4a4a4;
+}
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus{
+    border: 2px solid #3895ea;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+    width: 49%;
+    margin-bottom: 15px;
+}
+.formulario textarea{
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+.formulario .boton{
+    margin: auto;
+    background: rgb(39, 67, 226);;
+    color: #fff;
+    border:none;
+    border-radius: 3px;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+.formulario .boton:hover{
+    background: #387bea;
+}
+footer .redes-sociales{
+    background: #1e2b38;
+    padding: 60px 0;
+}
+footer .redes-sociales .contenedor{
+    display: flex;
+    justify-content: center;
+}
+footer .redes-sociales a{
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+#map{
+    height: 500px;
+	width: 100%;
+}

@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 /*Cards*/
-.container-card{
+.container-card1{
+	width: 20%;
 	display: flex;
-	/*max-width: 1400px;*/
+	max-width: 1400px;
 	margin: auto;
     margin-top: 20px;
 }
@@ -77,5 +78,8 @@
 	.title-card{
 		margin-top: 255px;
 	}
+    .container-card1{
+        width: 100%;
+    }
 }
 /*Fin-Cards*/
