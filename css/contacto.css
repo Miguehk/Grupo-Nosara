@@ -174,3 +174,13 @@ footer .redes-sociales a{
     height: 500px;
 	width: 100%;
 }
+
+@media only screen and (max-width: 767px) {
+
+    .contacto{
+        margin-top: 255px;
+    }
+
+
+
+}

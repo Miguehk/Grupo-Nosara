@@ -18,6 +18,7 @@ body{
     left: 0;
     top: 0;
     right: 0;
+    z-index: 10000;
 }
 /*Escondemos el menu*/
 .menu-icon{
@@ -88,6 +89,7 @@ p{
 .container{
     max-width: 69%;
     margin: 0 auto;
+    margin-top: 5px;
 }
 .container1{
     max-width: 69%;

@@ -1,4 +1,3 @@
-
 <?php
     
     $password= 'root_seguridad01';

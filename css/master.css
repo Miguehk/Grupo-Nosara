@@ -17,6 +17,7 @@ body{
     left: 0;
     top: 0;
     right: 0;
+    z-index: 10000;
 }
 /*Escondemos el menu*/
 .menu-icon{
@@ -39,18 +40,29 @@ p{
     align-items: flex-end;
     max-width: 67%;
     margin: 0 auto;
+    flex-direction: column;
 }
-.header-number{
+.header-number-text{
     color:rgb(90, 90, 90);
-    font-size: 1rem;
+    font-size: 15px;
     font-family: 'Nunito', sans-serif;
     margin-top: -22.064px;
     margin-bottom: 1px;
     margin-left: 40px;
 }
+
+.header-number{
+    color:rgb(90, 90, 90);
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
 .header-icon-telefono{
-    margin: 0px 0px 0px 30px;
-    height: 25px;
+    margin: 0px -51px 0px 30px;
+    height: 30px;
+    margin-right: -50px;
+    margin-bottom: 12px;
+    position: absolute;
 }
 .header a{
     color: white;
@@ -88,6 +100,7 @@ p{
 .container{
     max-width: 69%;
     margin: 0 auto;
+    margin-top: 5px;
 }
 .container1{
     max-width: 69%;
@@ -114,8 +127,48 @@ p{
 	margin-bottom: 40px;
 	font-size: 16px;
 }
+
+
+/*************************************************************************/
+
+.pedidos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 85px;
+}
+.pedidos_container1{
+    text-align: center;
+    width: 178px;
+}
+
+.pedidos_container2{
+    text-align: center;
+    width: 178px;
+}
+
+.pedidos_container3{
+    text-align: center;
+    width: 178px;
+}
+
+.pedidos_title{
+    font-size: 21px;
+}
+
+.pedidos_p{
+    font-size: 13px;
+}
+.pedidos_p1{
+    font-size: 13px;
+    margin-bottom: 45px;
+}
+
+
+#bloquep{
+    margin-top: 245px;
+}
 .bloque.parallax{
-	height: 700px;
+	height: 500px;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -130,6 +183,53 @@ p{
 .parallax.image-3{
 	background-image: url("../img/wood.jpg");
 }
+
+.pedidos_img1{
+    height: 60px;
+}
+.pedidos_img2{
+    height: 60px;
+}
+
+.btn-primary{
+    margin-top: 25px;
+}
+
+#carouselExampleFade{
+    width: 67%;margin:0 auto;
+    margin-top: 240px;
+}
+
+#card_ayuda{
+    margin-top: 195px;
+}
+
+#img_ayuda{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+#accordionFlushExample{
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.telephone_b{
+    width: 35px;
+    margin-right: 10px;
+}
+
 /********************************************************************************/
 /*Footer del sitio*/
 .footer{
@@ -153,13 +253,48 @@ p{
 /********************************************************************************/
 /*Media queery para responsive*/
 @media only screen and (max-width: 767px) {
-    
-    
+
+    #img_ayuda{
+        width: 100%;
+    }
+
+    .card-img-top{
+        width: 100%;
+    }
+
+    .carousel-fade{
+        width: 100%;
+    }
+
+    .carousel-inner{
+        margin-top: 275px;
+        width: 100%;
+    }
+
+    #carouselExampleFade{
+        width: 100%;
+    }
+
+
+    .pedidos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pedidos_container1{
+        margin-top: 20px;
+    }
+    .pedidos_container3{
+        margin-top: 20px;
+    }
+
     /*---------------------------*/
     .logo-nav-container{
         display: flex;
         flex-direction: column;
-        margin: auto 75px;
+        margin: 0 auto;
     }
     /*---------------------------*/
         
@@ -171,6 +306,12 @@ p{
         padding: 1.5rem 2rem;
         color: black;
         margin: 0 auto;
+        position: absolute;
+        margin-left: 240px;
+    }
+
+    .lista_icon{
+        height: 25px;
     }
 
     
@@ -180,8 +321,12 @@ p{
     }
 
     .navigation{
-        width: 100%;
-        margin-top: 1rem;
+        width: 55%;
+        margin-top: 0px;
+        position: absolute;
+        background-color: white;
+        padding-top: 60px;
+        padding-bottom: 200px;
     }
     /*Ocultar*/
     .navigation ul{
@@ -192,6 +337,9 @@ p{
     .navigation ul.show{
         display: block;
         margin-right: 40px;
+    }
+    .navigation ul.show .facebook-icon{
+        display:none;
     }
 
     .navigation ul li{

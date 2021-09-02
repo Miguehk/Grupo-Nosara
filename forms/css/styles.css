@@ -1,7 +1,7 @@
 /*Actualizado*/
 body{
     font-family: 'Nunito', sans-serif;
-    color: #333;
+    color: rgb(101, 101, 101);
     font-size: 1rem;
     line-height: 1.6em;
     margin: 0;
@@ -12,9 +12,11 @@ body{
     color: white;
     padding: 2rem 0;
     /*Fijo*/
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
+    z-index: 10000;
 }
 /*Escondemos el menu*/
 .menu-icon{
@@ -35,21 +37,31 @@ p{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    /* justify-content: right; */
-    max-width: 69%;
+    max-width: 67%;
     margin: 0 auto;
+    flex-direction: column;
 }
-.header-number{
-    color:#333;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
+.header-number-text{
+    color:rgb(90, 90, 90);
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
     margin-top: -22.064px;
     margin-bottom: 1px;
     margin-left: 40px;
 }
+
+.header-number{
+    color:rgb(90, 90, 90);
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
 .header-icon-telefono{
-    margin: 0px 0px 0px 30px;
-    height: 25px;
+    margin: 0px -51px 0px 30px;
+    height: 30px;
+    margin-right: -50px;
+    margin-bottom: 12px;
+    position: absolute;
 }
 .header a{
     color: white;
@@ -73,7 +85,7 @@ p{
     padding: 0.5rem 1rem;
     transition: all 0.4s linear;
     border-radius: 5px;
-    color: black;
+    color:rgb(90, 90, 90);
 }
 .navigation ul li a:hover{
     background: #e9e9e9;

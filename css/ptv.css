@@ -1,9 +1,25 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 215px;
+}
+.card-img-top{
+    width: 50%;
+}
+
+.card-body{
+    text-align: center;
+}
+.card-title{
+    margin-bottom: 40px;
+}
+
 #map{
     height: 500px;
 	width: 100%;    
     margin-top: 110px;
 }
-
 .container-ptv{
     display: flex;
     justify-content: start;
@@ -22,4 +38,34 @@
 }
 .icon{
     height: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    .container-ptv{
+        display: block;
+        margin-top: 270px;
+    }
+
+    .container-ptv .img-nosara{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .container-img{
+        margin: 0 auto;
+    }
+    .container-text-info{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .card{
+        margin-top: 275px;
+    }
+    .card-img-top{
+        width: 100%;
+    }
+
 }
