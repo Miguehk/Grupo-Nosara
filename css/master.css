@@ -140,21 +140,17 @@ p{
     text-align: center;
     width: 178px;
 }
-
 .pedidos_container2{
     text-align: center;
     width: 178px;
 }
-
 .pedidos_container3{
     text-align: center;
     width: 178px;
 }
-
 .pedidos_title{
     font-size: 21px;
 }
-
 .pedidos_p{
     font-size: 13px;
 }
@@ -162,8 +158,6 @@ p{
     font-size: 13px;
     margin-bottom: 45px;
 }
-
-
 #bloquep{
     margin-top: 245px;
 }
@@ -183,40 +177,32 @@ p{
 .parallax.image-3{
 	background-image: url("../img/wood.jpg");
 }
-
 .pedidos_img1{
     height: 60px;
 }
 .pedidos_img2{
     height: 60px;
 }
-
 .btn-primary{
     margin-top: 25px;
 }
-
 #carouselExampleFade{
     width: 67%;margin:0 auto;
     margin-top: 240px;
 }
-
 #card_ayuda{
     margin-top: 195px;
 }
-
 #img_ayuda{
     margin: 0 auto;
     width: 50%;
 }
-
 .card-body{
     display: flex;
     flex-direction: column;
     text-align: center;
 
 }
-
-
 #accordionFlushExample{
     width: 72%;
     display: flex;
@@ -229,6 +215,44 @@ p{
     width: 35px;
     margin-right: 10px;
 }
+
+.container_ptv{
+    margin-top:50px;
+    display: flex;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.card-footer .text-muted a{
+    text-decoration: none;
+    color: white !important;
+}
+.container_ptv_{
+    margin-top: 50px;
+}
+
+#container_ptv__{
+    display: flex;
+    justify-content: center;    
+}
+.btn-info{
+    background: rgb(39, 67, 226)!important;
+}
+
+.h_ferreteias{
+    margin-top: 225px;
+    text-align: center;
+    font-size: 30px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
 
 /********************************************************************************/
 /*Footer del sitio*/
@@ -321,12 +345,8 @@ p{
     }
 
     .navigation{
-        width: 55%;
-        margin-top: 0px;
-        position: absolute;
-        background-color: white;
-        padding-top: 60px;
-        padding-bottom: 200px;
+        width: 100%;
+        margin-top: 1rem;
     }
     /*Ocultar*/
     .navigation ul{
