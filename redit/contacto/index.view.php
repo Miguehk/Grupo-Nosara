@@ -27,7 +27,7 @@
 <header class="header">
     <div class="container logo-nav-container">
         <a href="#" class="logo"><img class="logo_nosara"  src="../../img/logo.png" alt="Logo Grupo Nosara"></a>
-        <span class="menu-icon"><img class="lista_icon" src="../../asset/lista.svg" alt=""></span>
+        <span class="menu-icon"><img class="lista_icon" src="../../asset/lista.svg" alt="menu"></span>
         <nav class="navigation">
             <ul>
                 <li><a href="../../index.html">Inicio</a></li>
@@ -46,9 +46,16 @@
     </div>
 </header>
 
+
+<!------- Logo Oculto ----------->
+<div class="logo-gp">
+    <img src="../../img/logo.png" alt="" class="logo-gp_">
+  </div>
+
+
 <!--Main principal-->
 
-<section class="contacto">
+<section class="contacto" id="contact_">
     <div class="contenedorc">
         <h3 class="titulo">Contacto</h3>
         <form action="" class="formulario">
@@ -70,9 +77,14 @@
     <i> <img src="../../asset/whatsapp.png" alt=""></i>
 </a>
 
+
+<div class="barra">
+
+</div>
+
 <!--Footer-->
 <footer class="footer">
-    <div class="container">
+    <div class="container" id="contaier_footer">
       <p class="footer-formulario-p"><span><img class="icon-location" src="../../asset/location.svg " alt=""></span> Nosara, Guanacaste, Costa Rica</p>
     </div>
     <div>

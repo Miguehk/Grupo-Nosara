@@ -1,5 +1,5 @@
-<?php
-
-    require 'index.view.php';
-
+<?php
+
+    require 'index.view.php';
+
 ?>

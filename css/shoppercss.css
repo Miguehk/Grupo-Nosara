@@ -1,112 +1,112 @@
-/*Actualizado*/
-body{
-    font-family: 'Nunito', sans-serif;
-    color: #333;
-    font-size: 1rem;
-    line-height: 1.6em;
-    margin: 0;
-}
-/************************************************************************/
-/**--Header del sitio web--**/
-.header{
-    background: white;
-    color: white;
-    padding: 2rem 0;
-    /*Fijo*/
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 10000;
-}
-/*Escondemos el menu*/
-.menu-icon{
-    display: none;
-}
-.logo_nosara{
-    height: 100px;
-    border-radius: 10%;
-}
-h1{
-    font-size: 2rem;
-    line-height: 1.3em;
-}
-p{
-    margin-bottom:  1.6em;
-}
-.telefono{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    max-width: 67%;
-    margin: 0 auto;
-}
-.header-number{
-    color:#333;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    margin-top: -22.064px;
-    margin-bottom: 1px;
-    margin-left: 40px;
-}
-.header-icon-telefono{
-    margin: 0px 0px 0px 30px;
-    height: 25px;
-}
-.header a{
-    color: white;
-    text-decoration: none;
-}
-.logo-nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*Media*/
-    flex-wrap: wrap;
-}
-.facebook-icon{
-    margin-top: 5px;
-}
-.navigation ul li{
-    display: inline-block;
-}
-.navigation ul li a{
-    display: block;
-    padding: 0.5rem 1rem;
-    transition: all 0.4s linear;
-    border-radius: 5px;
-    color: black;
-}
-.navigation ul li a:hover{
-    background: #f0f0f0;
-}
-.facebook-icon{
-    margin-top: -4px;
-    position: absolute;
-}
-/*************************************************************************************/
-.container{
-    max-width: 69%;
-    padding-top: 8rem;
-    margin: 0 auto;
-    margin-bottom: 45px;
-}
-/*************************************************************************************/
-.footer{
-    background: rgb(39, 67, 226);
-    padding: 1rem 0;
-    text-align: center;
-    margin-top: 6rem;
-}
-.footer-formulario-p{
-    color: white;
-}
-.footer-formulario-a{
-    color: white;
-}
-.footer .derechos{
-    color: white;
-    text-align: center;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
+/*Actualizado*/
+body{
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+/************************************************************************/
+/**--Header del sitio web--**/
+.header{
+    background: white;
+    color: white;
+    padding: 2rem 0;
+    /*Fijo*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+}
+/*Escondemos el menu*/
+.menu-icon{
+    display: none;
+}
+.logo_nosara{
+    height: 100px;
+    border-radius: 10%;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+p{
+    margin-bottom:  1.6em;
+}
+.telefono{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    max-width: 67%;
+    margin: 0 auto;
+}
+.header-number{
+    color:#333;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -22.064px;
+    margin-bottom: 1px;
+    margin-left: 40px;
+}
+.header-icon-telefono{
+    margin: 0px 0px 0px 30px;
+    height: 25px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*Media*/
+    flex-wrap: wrap;
+}
+.facebook-icon{
+    margin-top: 5px;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    color: black;
+}
+.navigation ul li a:hover{
+    background: #f0f0f0;
+}
+.facebook-icon{
+    margin-top: -4px;
+    position: absolute;
+}
+/*************************************************************************************/
+.container{
+    max-width: 69%;
+    padding-top: 8rem;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+/*************************************************************************************/
+.footer{
+    background: rgb(39, 67, 226);
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+.footer-formulario-p{
+    color: white;
+}
+.footer-formulario-a{
+    color: white;
+}
+.footer .derechos{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }

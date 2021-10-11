@@ -1,4 +1,3 @@
-/*Actualizado*/
 body{
     font-family: 'Nunito', sans-serif;
     color: rgb(101, 101, 101);
@@ -6,6 +5,7 @@ body{
     line-height: 1.6em;
     margin: 0;
 }
+/************************************************************************/
 /**--Header del sitio web--**/
 .header{
     background: white;
@@ -18,6 +18,10 @@ body{
     right: 0;
     z-index: 10000;
 }
+.logo-gp{
+    display: none;
+}
+
 /*Escondemos el menu*/
 .menu-icon{
     display: none;
@@ -88,14 +92,28 @@ p{
     color:rgb(90, 90, 90);
 }
 .navigation ul li a:hover{
-    background: #e9e9e9;
+    background: #f0f0f0;
 }
 .facebook-icon{
     margin-top: -4px;
     position: absolute;
 }
+/******************************************************************************/
 /**--Main principal--**/
 .container{
+    max-width: 69%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.container1{
+    max-width: 69%;
+    margin: 0 auto;
+}
+.container2{
+    max-width: 69%;
+    margin: 0 auto;
+}
+.container3{
     max-width: 69%;
     margin: 0 auto;
 }
@@ -112,8 +130,42 @@ p{
 	margin-bottom: 40px;
 	font-size: 16px;
 }
+
+
+/*************************************************************************/
+
+.pedidos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 85px;
+}
+.pedidos_container1{
+    text-align: center;
+    width: 178px;
+}
+.pedidos_container2{
+    text-align: center;
+    width: 178px;
+}
+.pedidos_container3{
+    text-align: center;
+    width: 178px;
+}
+.pedidos_title{
+    font-size: 21px;
+}
+.pedidos_p{
+    font-size: 13px;
+}
+.pedidos_p1{
+    font-size: 13px;
+    margin-bottom: 45px;
+}
+#bloquep{
+    margin-top: 245px;
+}
 .bloque.parallax{
-	height: 700px;
+	height: 500px;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -128,12 +180,118 @@ p{
 .parallax.image-3{
 	background-image: url("../img/wood.jpg");
 }
+.pedidos_img1{
+    height: 60px;
+}
+.pedidos_img2{
+    height: 60px;
+}
+.btn-primary{
+    margin-top: 25px;
+}
+#carouselExampleFade{
+    width: 67%;margin:0 auto;
+    margin-top: 192px;
+}
+#card_ayuda{
+    margin-top: 195px;
+}
+#img_ayuda{
+    margin: 0 auto;
+    width: 50%;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+#accordionFlushExample{
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.telephone_b{
+    width: 35px;
+    margin-right: 10px;
+}
+
+.container_ptv{
+    margin-top:50px;
+    display: flex;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.card-footer .text-muted a{
+    text-decoration: none;
+    color: white !important;
+}
+.container_ptv_{
+    margin-top: 50px;
+}
+
+#container_ptv__{
+    display: flex;
+    justify-content: center;    
+}
+.btn-info{
+    background: rgb(39, 67, 226)!important;
+}
+
+.h_ferreteias{
+    margin-top: 225px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.prove_img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;    
+}
+.prove_img:hover img{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.prove_img{
+    overflow:hidden;
+}
+.carousel-control-prev-icon{
+    background-color: rgb(155, 155, 155);
+}
+.carousel-control-next-icon{
+    background-color: rgb(155, 155, 155);
+}
+
+.puntos_h{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 192px;
+}
+.puntos_venta{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+/********************************************************************************/
 /*Footer del sitio*/
 .footer{
     background: rgb(39, 67, 226);
     padding: 1rem 0;
     text-align: center;
-    margin-top: 6rem;
 }
 .footer-formulario-p{
     color: white;
@@ -147,17 +305,128 @@ p{
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
 }
+
+.barra{
+    background-color: #f7ef00;
+    height: 10px;
+    margin-top: 100px;
+}
+
+/********************************************************************************/
 /*Media queery para responsive*/
 @media only screen and (max-width: 767px) {
+
+    
+    #card_ayuda{
+        margin-top: 40px;
+    }
+
+
+    #bloquep {
+        margin-top: 70px;
+    }
+
+    .puntos_h {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 60px;
+    }
+
+    #contaier_footer{
+        margin-top: 0px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    #carouselExampleFade{
+        margin-top: 5px;
+    }
+
+    .logo-gp_{
+        height: 100px;
+    }
+
+    .logo-gp{
+        display: flex;
+        margin-top: 60px;
+        justify-content: center;
+    }
+
+    .header{
+        background: rgb(39, 67, 226);
+        padding-bottom: 0px;
+    }
+
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+            margin-top: 0px;
+        margin-top: -23px;
+    }
+
+
+    .logo_nosara{
+        display: none;
+    }
+
+    .prove{
+        display: none;
+    }
+
+    .puntos_venta{
+        flex-direction: column;
+    }
+    #card_{
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+
+    #img_ayuda{
+        width: 100%;
+    }
+
+    .card-img-top{
+        width: 100%;
+    }
+
+    .carousel-fade{
+        width: 100%;
+    }
+
+    .carousel-inner{
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    #carouselExampleFade{
+        width: 100%;
+    }
+
+
+    .pedidos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pedidos_container1{
+        margin-top: 20px;
+    }
+    .pedidos_container3{
+        margin-top: 20px;
+    }
 
     /*---------------------------*/
     .logo-nav-container{
         display: flex;
-        flex-direction: column;
-        margin: auto 75px;
+        padding: 0;
     }
     /*---------------------------*/
-
+        
 
     /*Afecta forms*/
     .menu-icon{
@@ -166,10 +435,12 @@ p{
         padding: 1.5rem 2rem;
         color: black;
         margin: 0 auto;
+        display: contents;
     }
 
-    .facebook-icon{
-        display: none;
+    .lista_icon{
+        height: 25px;
+        padding-left: 10px;
     }
 
     
@@ -189,8 +460,23 @@ p{
     }
 
     .navigation ul.show{
-        display: block;
-        margin-right: 45px;
+        width: 100%;
+        margin-right: 0px;
+        padding-left: 0px;
+        background-color: white;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        padding-bottom: 300px!;
+        padding-top: 30px;
+        margin-bottom: 85px;
+        margin-bottom: 0px;
+        padding-bottom: 100%;
+    }
+    
+    .navigation ul.show .facebook-icon{
+        display:none;
     }
 
     .navigation ul li{
@@ -200,7 +486,7 @@ p{
     
     .navigation ul li a{
         display: block;
-        padding: 0.5rem 0;
+        padding: 20px;
         transition: all 0.4s linear;
         border-radius: 5px;
     }
@@ -208,5 +494,4 @@ p{
     .navigation ul li a:hover{
         background: #4a4a4a;
     }
-
 }

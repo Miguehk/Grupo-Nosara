@@ -13,6 +13,8 @@
               border-radius:100%;
             }
     </style>
+
+    <link rel="stylesheet" href="../css/p.css">
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/whatsapp.css">
     <link rel="stylesheet" href="../css/carousel.css">
@@ -25,14 +27,15 @@
     <!--- IMG --->
     <link rel="shorcut icon" type="image/x-icon" href="../asset/ico.ico">
     <title>Grupo Nosara</title>
+    
 </head>
 <body>
 
 <!---Header del sitio web-->
 <header class="header">
-    <div class="container logo-nav-container">
+    <div class="container logo-nav-container" id="conatainer">
         <a href="https://gruponosara.com/" class="logo"><img class="logo_nosara"  src="../img/logo.png" alt="Logo Grupo Nosara"></a>
-        <span class="menu-icon"><img class="lista_icon" src="../asset/lista.svg" alt=""></span>
+        <span class="menu-icon"><img class="lista_icon" src="../asset/lista.svg" alt="menu"></span>
         <nav class="navigation">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -52,95 +55,76 @@
 </header>
 
 
+<!------- Logo Oculto ----------->
+<div class="logo-gp">
+  <img src="../img/logo.png" alt="" class="logo-gp_">
+</div>
 
-<style type="text/css">
-  body {
-      overflow-x:hidden;
-  }
-  </style>
+
+<!------ Ferreterias ------>
+<h1 class="puntos_h">Ferreterías</h1>
+<div class="puntos_venta">
+  <!---- Materiales Nosara ---->
+  <div class="card" style="width: 25rem;" id="card_">
+    <img src="../img/card/mat_nosara.png" class="card-img-top" alt="Materiales de Construccion Nosara">
+    <div class="card-body">
+      <h5 class="card-title">Materiales de Construcción Nosara</h5>
+      <p class="card-text">Guanacaste, Nosara, detras del BCR de Nosara.</p>
+      <a href="pdv/ptvmatnosara.html" class="btn btn-primary" id="btn_ptv">Saber más</a>
+    </div>
+  </div>
+
+  <!---- Ferreteria el Constructor Samareño ---->
+  <div class="card" style="width: 25rem;" id="card_">
+    <img src="../img/card/samareno.jpeg" class="card-img-top" alt="Samareño">
+    <div class="card-body">
+      <h5 class="card-title">Ferretería el Constructor Samareño</h5>
+      <p class="card-text">Guanacaste, Nicoya, camino a samara, frente al cruce de Nosara.</p>
+      <a href="pdv/ptvsamareno.html" class="btn btn-primary">Saber más</a>
+    </div>
+  </div>
+
+  <!---- Materiales de Construccion Marbella ---->
+  <div class="card" style="width: 25rem;" id="card_">
+    <img src="../img/card/marbella.png" class="card-img-top" alt="Marbella">
+    <div class="card-body">
+      <h5 class="card-title">Materiales de Construcción Marbella</h5>
+      <p class="card-text">Santa Cruz, Paraiso.</p>
+      <a href="pdv/ptvmarbella.html" class="btn btn-primary">Saber más</a>
+    </div>
+  </div>
+
+  <!---- Ferreteria Nosara ---->
+  <div class="card" style="width: 25rem;" id="card_">
+    <img src="../img/card/ferre_nosara.png" class="card-img-top" alt="Ferreteria Nosara">
+    <div class="card-body">
+      <h5 class="card-title">Ferretería Nosara</h5>
+      <p class="card-text">Guanacaste, Nosara, Arenales.</p>
+      <a href="pdv/ptvferrenosara.html" class="btn btn-primary">Saber más</a>
+    </div>
+  </div>
   
-<!--Main principal-->
-<h1 class="h_ferreteias">Ferreterías</h1>
+  <!---- Materiales de Construccion Paraiso ---->
+  <div class="card" style="width: 25rem;" id="card_">
+    <img src="../img/card/paraiso.png" class="card-img-top" alt="Materiales de Construccion Paraiso">
+    <div class="card-body">
+      <h5 class="card-title">Materiales de Construcción Paraiso</h5>
+      <p class="card-text">Guanacaste, Nosara, Arenales.</p>
+      <a href="pdv/ptvparaiso.html" class="btn btn-primary">Saber más</a>
+    </div>
+  </div>
+  
+  <!---- Materiales de Construccion Samara ---->
+  <div class="card" style="width: 25rem;" id="card_">
+    <img src="../img/card/samara.png" class="card-img-top" alt="Ferreteria Nosara">
+    <div class="card-body">
+      <h5 class="card-title">Materiales de Construcción Samara</h5>
+      <p class="card-text">Guanacaste, Nosara, Arenales.</p>
+      <a href="pdv/ptvsamara.html" class="btn btn-primary">Saber más</a>
+    </div>
+  </div>
 
-<div class="container_ptv">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <!---- Materiales Nosara ---->
-        <div class="col">
-          <div class="card h-100" id="card_tama">
-            <img src="../img/card/mat_nosara.png" class="card-img-top" alt="Materiales Nosara">
-            <div class="card-body">
-              <h5 class="card-title">Materiales de Construcción Nosara</h5>
-              <p class="card-text">Guanacaste, Nosara, detras del BCR de Nosara.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"><button type="button" class="btn btn-info" ><a href="../redit/pdv/ptvmatnosara.html">Saber más</a></button></small>
-            </div>
-          </div>
-        </div>
-        <!---- Ferreteria el Constructor Samareño ---->
-        <div class="col">
-          <div class="card h-100">
-            <img src="../img/card/samareno.jpeg" class="card-img-top" alt="Samareño">
-            <div class="card-body">
-              <h5 class="card-title">Ferretería el Constructor Samareño</h5>
-              <p class="card-text">Guanacaste, Nicoya, camino a samara, frente al cruce de Nosara.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted"><button type="button" class="btn btn-info" ><a href="../redit/pdv/ptvsamareno.html">Saber más</a></button></small>
-            </div>
-          </div>
-        </div>
-        <!---- Materiales de Construccion Marbella ---->
-        <div class="col">
-          <div class="card h-100">
-            <img src="../img/card/marbella.png" class="card-img-top" alt="Marbella">
-            <div class="card-body">
-              <h5 class="card-title">Materiales de Construcción Marbella</h5>
-              <p class="card-text">Santa Cruz, Paraiso.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted"><button type="button" class="btn btn-info" ><a href="../redit/pdv/ptvmarbella.html">Saber más</a></button></small>
-            </div>
-          </div>
-        </div>
-      </div>
 </div>
-
-<!------- Segundo Contendor -------->
-<div class="container_ptv_">
-    <div class="row row-cols-1 row-cols-md-3 g-4" id="container_ptv__">
-        <!---- Ferreteria Nosara ---->
-        <div class="col">
-          <div class="card h-100">
-            <img src="../img/card/ferre_nosara.png" class="card-img-top" alt="Ferreteria Nosara">
-            <div class="card-body">
-              <h5 class="card-title">Ferretería Nosara</h5>
-              <p class="card-text">Guanacaste, Nosara, Arenales.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"><button type="button" class="btn btn-info" ><a href="../redit/pdv/ptvferrenosara.html">Saber más</a></button></small>
-            </div>
-          </div>
-        </div>
-        <!---- Materiales de Constructor Paraiso ---->
-        <div class="col">
-          <div class="card h-100">
-            <img src="../img/card/paraiso.png" class="card-img-top" alt="Materiales de Construccion Paraiso">
-            <div class="card-body">
-              <h5 class="card-title">Materiales de Construcción Paraiso</h5>
-              <p class="card-text">Guanacaste, Nosara, Arenales.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted"><button type="button" class="btn btn-info" ><a href="../redit/pdv/ptvparaiso.html">Saber más</a></button></small>
-            </div>
-          </div>
-        </div>
-      </div>
-</div>
-
-
-
-
 
 <!----- Whatsapp ---->
 <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=50685711727&amp;text=Hola!&nbsp;me&nbsp;podes&nbsp;ayudar?">
@@ -148,13 +132,19 @@
 </a>
 
 
+<!-------  Barra  --------->
+<div class="barra">
+
+</div>
+
+
 <!--Footer del sitio-->
 <footer class="footer">
-    <div class="container">
+    <div class="container" id="contaier_footer">
         <p class="footer-formulario-p"><span><img class="icon-location" src="../asset/location.svg " alt=""></span> Nosara, Guanacaste, Costa Rica</p>
     </div>
     <div>
-        <p class="footer-formulario-p" >Llenar formulario de Compra <a class="footer-formulario-a" href="forms/index.php"> Aqui</a></p>
+        <p class="footer-formulario-p" >Llenar formulario de Compra <a class="footer-formulario-a" href="../forms/index.php"> Aqui</a></p>
     </div>
     <p class="derechos">&copy Grupo Nosara 2021</p>
 </footer>

@@ -1,15 +1,23 @@
-.carousel-item{
-    transition: transform .7s ease-in-out;
-}
-
-.carousel-control-prev-icon {
-    width: 55px;
-    height: 50px;
-    border-radius: 100%;
-}
-
-.carousel-control-next-icon{
-    width: 55px;
-    height: 50px;
-    border-radius: 100%;
+
+
+.carousel-control-prev-icon {
+
+    width: 55px;
+
+    height: 50px;
+
+    border-radius: 100%;
+
+}
+
+
+
+.carousel-control-next-icon{
+
+    width: 55px;
+
+    height: 50px;
+
+    border-radius: 100%;
+
 }

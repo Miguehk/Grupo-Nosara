@@ -24,7 +24,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!--- IMG --->
     <link rel="shorcut icon" type="image/x-icon" href="asset/ico.ico">
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Grupo Nosara</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E81HKZMKM0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E81HKZMKM0');
+  </script> 
 </head>
 <body>
 
@@ -32,7 +45,9 @@
 <header class="header">
     <div class="container logo-nav-container">
         <a href="https://gruponosara.com/" class="logo"><img class="logo_nosara"  src="img/logo.png" alt="Logo Grupo Nosara"></a>
-        <span class="menu-icon"><img class="lista_icon" src="asset/lista.svg" alt=""></span>
+
+        <span class="menu-icon"><img class="lista_icon" src="asset/lista.svg" alt="menu"></span>
+
         <nav class="navigation">
             <ul>
                 <li><a href="#">Inicio</a></li>
@@ -52,10 +67,16 @@
 </header>
 
 
+<!------- Logo Oculto ----------->
+<div class="logo-gp">
+  <img src="img/logo.png" alt="" class="logo-gp_">
+</div>
+
+
 <!--Main principal-->
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     
-    <div class="carousel-inner">
+    <div class="carousel-inner" id="carousel-innerid">
       <div class="carousel-item active">
         <img src="img/n1.png" class="d-block w-100" alt="...">
       </div>
@@ -68,11 +89,15 @@
     </div>
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16" style="background-color: rgb(39, 67, 226);border-radius: 90%;">
+        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+      </svg>
       <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16" style="background-color: rgb(39, 67, 226);border-radius: 90%;">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
@@ -110,15 +135,26 @@
   </div>
 
 
+  <div class="prove">
+    <div class="prove_img">
+      <img src="img/n-1.gif" alt="">
+    </div>
+  </div>
+
+
 <!----- Whatsapp ---->
 <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=50685711727&amp;text=Hola!&nbsp;me&nbsp;podes&nbsp;ayudar?">
     <i> <img src="asset/whatsapp.png" alt=""></i>
 </a>
 
+<!-------  Barra  --------->
+<div class="barra">
+
+</div>
 
 <!--Footer del sitio-->
 <footer class="footer">
-    <div class="container">
+    <div class="container" id="contaier_footer">
         <p class="footer-formulario-p"><span><img class="icon-location" src="asset/location.svg " alt=""></span> Nosara, Guanacaste, Costa Rica</p>
     </div>
     <div>
