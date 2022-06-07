@@ -58,12 +58,16 @@
 <section class="contacto" id="contact_">
     <div class="contenedorc">
         <h3 class="titulo">Contacto</h3>
-        <form action="" class="formulario">
+
+        <form method="post" action="enviar.php" class="formulario">
+
             <input type="text" placeholder="Nombre" nombre="nombre" required>
-            <input type="text" placeholder="Correo" name="correo" required>
-            <textarea name="mensaje" placeholder="Mensaje"></textarea>
+            <input type="text" placeholder="Correo" name="email" required>
+            <textarea type="text" name="mensaje" placeholder="Mensaje" required></textarea>
+            
             <input class="boton" type="submit" value="Enviar">
         </form>
+
     </div>
 </section>
 
